@@ -1,30 +1,57 @@
 public class Pessoa {
     private String nome;
+    private String nacionalidade;
     private int idade;
-    private int CPF;
+    private int cadastro;
+    private String cpf; // é string por causa que pode iniciar em 0
+
+    public Pessoa(String nome, String nacionalidade, int idade, int cadastro, String cpf) {
+        this.nome = nome;
+        this.nacionalidade = nacionalidade;
+        this.idade = idade;
+        this.cadastro = cadastro;
+        this.cpf = cpf;
+    }
 
     public String getNome() {
-        return this.nome;
+        return nome;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
     }
 
+    public String getNacionalidade() {
+        return nacionalidade;
+    }
+
+    public void setNacionalidade(String nacionalidade) {
+        this.nacionalidade = nacionalidade;
+    }
+
     public int getIdade() {
-        return this.idade;
+        return idade;
     }
 
     public void setIdade(int idade) {
         this.idade = idade;
     }
 
-    public int getCPF() {
-        return this.CPF;
+    public int getCadastro() {
+        return cadastro;
     }
 
-    public void setCPF(int CPF) {
-        this.CPF = CPF;
+    public void setCadastro(int cadastro) {
+        this.cadastro = cadastro;
     }
 
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
+
+    
 }
