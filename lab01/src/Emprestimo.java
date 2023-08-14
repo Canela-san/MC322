@@ -1,16 +1,15 @@
 import java.util.Date;
 
-
 public class Emprestimo {
     Livro livro;
     Date dataEmprestimo = new Date();
     Date dataDevolucao = new Date();
     int Renovacoes;
     String status;
-    
+
     public Emprestimo(Livro livro) {
         this.livro = livro;
-        //pegar outras variaveis pela data do sistema
+        // pegar outras variaveis pela data do sistema
     }
 
     public Livro getLivro() {
@@ -53,7 +52,4 @@ public class Emprestimo {
         this.status = status;
     }
 
-    
-
-    
 }

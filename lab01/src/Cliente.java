@@ -5,7 +5,8 @@ public class Cliente extends Pessoa {
     int idade_inscricao;
     int numero_emprestimos_atuais;
     boolean ativo = true;
-    ArrayList <Emprestimo> emprestimos = new ArrayList <Emprestimo> ();
+    ArrayList<Emprestimo> emprestimos = new ArrayList<Emprestimo>();
+
     public Cliente(String nome, String nacionalidade, int idade, int cadastro, String cpf, int cadastro2,
             int idade_inscricao, int numero_emprestimos_atuais, boolean ativo) {
         super(nome, nacionalidade, idade, cadastro, cpf);
