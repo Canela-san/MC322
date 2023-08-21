@@ -7,8 +7,9 @@ public class Emprestimo {
     int Renovacoes;
     String status;
 
-    public Emprestimo(Livro livro) {
+    public Emprestimo(Livro livro, Date datadev) {
         this.livro = livro;
+        this.dataDevolucao = datadev;
         // pegar outras variaveis pela data do sistema
     }
 

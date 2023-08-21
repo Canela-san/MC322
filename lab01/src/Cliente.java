@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Date;
 
 public class Cliente extends Pessoa {
     int cadastro;
@@ -16,8 +17,8 @@ public class Cliente extends Pessoa {
         this.ativo = ativo;
     }
 
-    public void addEmprestimo(Livro livro) {
-        Emprestimo e1 = new Emprestimo(livro);
+    public void addEmprestimo(Livro livro, Date datadev) {
+        Emprestimo e1 = new Emprestimo(livro, datadev);
         emprestimos.add(e1);
     }
 
