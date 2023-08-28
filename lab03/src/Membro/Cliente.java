@@ -8,7 +8,7 @@ import Multimidia.*;
 public class Cliente extends Membro {
 
     private boolean bloqueado;
-    ArrayList<Emprestimo> emprestimos = new ArrayList<Emprestimo>();
+    private ArrayList<Emprestimo> emprestimos = new ArrayList<Emprestimo>();
 
     public Cliente(String nome, String nacionalidade, int idade, String cpf, boolean bloqueado,
             ArrayList<Emprestimo> emprestimos) {

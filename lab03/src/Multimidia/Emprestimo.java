@@ -3,11 +3,11 @@ package Multimidia;
 import java.util.Date;
 
 public class Emprestimo {
-    Multimidia obj;
-    Date dataEmprestimo = new Date();
-    Date dataDevolucao = new Date();
-    int Renovacoes;
-    boolean devolvido;
+    private Multimidia obj;
+    private Date dataEmprestimo = new Date();
+    private Date dataDevolucao = new Date();
+    private int Renovacoes;
+    private boolean devolvido;
 
     public Emprestimo(Multimidia obj, Date dataEmprestimo, Date dataDevolucao, int renovacoes, boolean devolvido) {
         this.obj = obj;
