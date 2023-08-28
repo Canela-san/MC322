@@ -43,4 +43,8 @@ public class Cliente extends Membro {
         emprestimos.add(e1);
     }
 
+    public void RemoveEmprestimo(Emprestimo obj) {
+        emprestimos.remove(obj);
+    }
+    
 }
