@@ -1,24 +1,29 @@
+package Multimidia;
+
 import java.util.Date;
 
 public class Emprestimo {
-    Livro livro;
+    Multimidia obj;
     Date dataEmprestimo = new Date();
     Date dataDevolucao = new Date();
     int Renovacoes;
-    String status;
+    boolean devolvido;
 
-    public Emprestimo(Livro livro, Date datadev) {
-        this.livro = livro;
-        this.dataDevolucao = datadev;
-        // pegar outras variaveis pela data do sistema
+    public Emprestimo(Multimidia obj, Date dataEmprestimo, Date dataDevolucao, int renovacoes, boolean devolvido) {
+        this.obj = obj;
+        this.dataEmprestimo = dataEmprestimo;
+        this.dataDevolucao = dataDevolucao;
+        this.Renovacoes = renovacoes;
+        this.devolvido = devolvido;
     }
 
-    public Livro getLivro() {
-        return livro;
+
+    public Multimidia getObj() {
+        return obj;
     }
 
-    public void setLivro(Livro livro) {
-        this.livro = livro;
+    public void setObj(Multimidia obj) {
+        this.obj = obj;
     }
 
     public Date getDataEmprestimo() {
@@ -45,12 +50,12 @@ public class Emprestimo {
         Renovacoes = renovacoes;
     }
 
-    public String getStatus() {
-        return status;
+    public boolean isDevolvido() {
+        return devolvido;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setDevolvido(boolean devolvido) {
+        this.devolvido = devolvido;
     }
 
 }

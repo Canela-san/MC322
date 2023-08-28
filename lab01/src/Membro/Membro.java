@@ -1,16 +1,31 @@
-public class Pessoa {
+package Membro;
+
+import java.util.Date;
+public class Membro {
+    private Inscricao inscricao;
     private String nome;
     private String nacionalidade;
     private int idade;
-    private int cadastro;
     private String cpf; // é string por causa que pode iniciar em 0
 
-    public Pessoa(String nome, String nacionalidade, int idade, int cadastro, String cpf) {
+    public Membro(String nome, String nacionalidade, int idade, String cpf) {
         this.nome = nome;
         this.nacionalidade = nacionalidade;
         this.idade = idade;
-        this.cadastro = cadastro;
         this.cpf = cpf;
+    }
+
+    public void CriarInscricao(Date dataInscricao, String email, String senha, boolean ativa) {
+        Inscricao temp = new Inscricao(dataInscricao, email, senha, ativa);
+        this.inscricao = temp;
+    }
+
+    public Inscricao getInscricao() {
+        return inscricao;
+    }
+
+    public void setInscricao(Inscricao inscricao) {
+        this.inscricao = inscricao;
     }
 
     public String getNome() {
@@ -37,14 +52,6 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public int getCadastro() {
-        return cadastro;
-    }
-
-    public void setCadastro(int cadastro) {
-        this.cadastro = cadastro;
-    }
-
     public String getCpf() {
         return cpf;
     }
@@ -53,5 +60,4 @@ public class Pessoa {
         this.cpf = cpf;
     }
 
-    
 }
