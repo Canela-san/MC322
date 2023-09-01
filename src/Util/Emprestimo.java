@@ -1,6 +1,8 @@
-package Multimidia;
+package Util;
 
 import java.util.Date;
+
+import Multimidia.Multimidia;
 
 public class Emprestimo {
     private Multimidia obj;

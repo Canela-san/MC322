@@ -1,22 +1,16 @@
 package Multimidia;
 
+import java.util.Date;
+
 public class LivroEletronico extends Multimidia{
-    private long Tamanho;
-
-    public LivroEletronico(int id, String titulo, String autor, String categoria, String descricao, int quantidade,
-            long tamanho) {
-        super(id, titulo, autor, categoria, descricao, quantidade);
-        Tamanho = tamanho;
-    }
-
-    public long getTamanho() {
-        return Tamanho;
-    }
-
-    public void setTamanho(long tamanho) {
-        Tamanho = tamanho;
-    }
+    private String formato;
+    private int quantLicencas;
 
 
-    
+// – Formato (PDF, ePub, etc.)
+// – Número total de licenças (para determinar o número de cópias simultâneas permitidas)
+// – Formato de arquivo
+// – URL de acesso ou local de armazenamento
+// – Requisitos de leitura (software, dispositivo compatível)
+// – Data de disponibilidade
 }

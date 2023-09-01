@@ -1,24 +1,18 @@
 package Multimidia;
 public class DVD extends Multimidia{
-    private long Tamanho;
-    private int duracaoHoras;
-    public DVD(int id, String titulo, String autor, String categoria, String descricao, int quantidade, long tamanho,
-            int duracaoHoras) {
-        super(id, titulo, autor, categoria, descricao, quantidade);
-        Tamanho = tamanho;
-        this.duracaoHoras = duracaoHoras;
-    }
-    public long getTamanho() {
-        return Tamanho;
-    }
-    public void setTamanho(long tamanho) {
-        Tamanho = tamanho;
-    }
-    public int getDuracaoHoras() {
-        return duracaoHoras;
-    }
-    public void setDuracaoHoras(int duracaoHoras) {
-        this.duracaoHoras = duracaoHoras;
-    }
     
+    private String elenco;
+    private int duracaoHoras;
+    private int quantCopia;
+    private int quantCopiaDisponivel;
+    private String[] legendas;
+    private String[] audios;
+
+    // – DVD de Vídeo:
+    //     – Elenco
+    //     – Duração
+    //     – Número total de cópias
+    //     – Número de cópias disponíveis
+    //     – Legendas e Áudio Disponíveis
+    //     – Estado de conservação
 }
