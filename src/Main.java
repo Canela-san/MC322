@@ -1,7 +1,4 @@
-package main;
-
 import java.sql.Date;
-
 import Membro.*;
 import Multimidia.*;
 
