@@ -9,12 +9,16 @@ public class Emprestimo {
     private int Renovacoes;
     private boolean devolvido;
 
-    public Emprestimo(Multimidia obj, Date dataEmprestimo, Date dataDevolucao, int renovacoes, boolean devolvido) {
-        this.obj = obj;
+    public Emprestimo(Object obj2, Date dataEmprestimo, Date dataDevolucao, int renovacoes, boolean devolvido) {
+        this.obj = obj2;
         this.dataEmprestimo = dataEmprestimo;
         this.dataDevolucao = dataDevolucao;
         this.Renovacoes = renovacoes;
         this.devolvido = devolvido;
+    }
+
+
+    public Emprestimo(Object obj2, Date dataEmprestimo2, Date datadev, int devolucoes, boolean devolvido2) {
     }
 
 
