@@ -6,6 +6,7 @@ public class LivroFisico extends Multimidia {
     
     private String isbn;
     private Edicao edicao;
+
     // copias totais e disponíveis está serpado por ediçao na classe edicao.
     // Localização específica está na classe cópia.
 

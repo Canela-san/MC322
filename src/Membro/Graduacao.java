@@ -1,5 +1,5 @@
 package Membro;
 
-public class Graduacao {
+public class Graduacao implements Interfacer {
     
 }

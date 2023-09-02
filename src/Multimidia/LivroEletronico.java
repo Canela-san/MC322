@@ -1,11 +1,9 @@
 package Multimidia;
 
-import java.util.Date;
-
 public class LivroEletronico extends Multimidia{
     private String formato;
     private int quantLicencas;
-
+    
 
 // – Formato (PDF, ePub, etc.)
 // – Número total de licenças (para determinar o número de cópias simultâneas permitidas)

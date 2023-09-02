@@ -1,5 +1,5 @@
 package Membro;
 
-public class Professor {
+public class Professor implements Interfacer{
     
 }
