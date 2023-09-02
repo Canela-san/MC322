@@ -7,7 +7,7 @@ import Util.Emprestimo;
 public class Cliente extends Membro {
 
     private boolean bloqueado;
-    private ArrayList<Object> emprestimos = new ArrayList<Object>();
+    
 
 
     public void addEmprestimo(Object obj, Date dataEmprestimo, Date datadev, int devolucoes, boolean devolvido) {
