@@ -1,0 +1,123 @@
+Cadastro e Detalhes de Itens Multimídia
+Cada item multimídia terá informações detalhadas, incluindo título, autor (ou artista), editora (ou gravadora), ano de publicação, gênero, sinopse e capa (ou imagem representativa).
+Atributos adicionais variarão conforme o tipo de item, incluindo:
+Livro Físico:
+    – ISBN
+    – Edição
+    – Número total de cópias por edição
+    – Número de cópias disponíveis por edição
+    – Localização específica na biblioteca (estante e prateleira)
+    – Estado de conservação
+Livro Eletrônico:
+    – Formato (PDF, ePub, etc.)
+    – Número total de licenças (para determinar o número de cópias simultâneas permitidas)
+    – Formato de arquivo
+    – URL de acesso ou local de armazenamento
+    – Requisitos de leitura (software, dispositivo compatível)
+    – Data de disponibilidade
+CD de Áudio:
+    – Lista de Faixas
+    – Duração Total
+    – Número total de cópias
+    – Número de cópias disponíveis
+    – Estado de conservação
+DVD de Vídeo:
+    – Elenco
+    – Duração
+    – Número total de cópias
+    – Número de cópias disponíveis
+    – Legendas e Áudio Disponíveis
+    – Estado de conservação
+Outros Recursos Multimídia:
+    – Tipo de Recurso
+    – Formato
+    – Número total de cópias
+    – Número de cópias disponíveis
+    – Localização na biblioteca
+    – Estado de conservação
+Gestão de Membros e Perfis
+Os membros da biblioteca universitária serão categorizados em diferentes perfis:
+Estudantes de Graduação:
+    – Nome
+    – Número de Identificação da Universidade
+    – Endereço
+    – Contato
+    – Data de Registro
+Estudantes de Pós-Graduação:
+    – Nome
+    – Número de Identificação da Universidade
+    – Endereço
+    – Contato
+    – Data de Registro
+Professores:
+    – Nome
+    – Número de Identificação da Universidade
+    – Endereço
+    – Contato
+    – Data de Registro
+Funcionários:
+    – Nome
+    – Número de Identificação da Universidade
+    – Endereço
+    – Contato
+    – Data de Registro
+Empréstimos, Devoluções e Multas
+    – Os membros poderão emprestar uma cópia específica de uma edição de um item, determinado pelo seu perfil.
+    – Os empréstimos estarão sujeitos à disponibilidade de cópias, restrições de reserva e histórico de multas.
+As seguintes regras de negócio serão aplicadas, considerando o perfil do membro, edição e tipo de item:
+Estudantes de Graduação:
+    – Limite de Empréstimo: 3 itens
+    – Prazo de Empréstimo: 15 dias
+    – Multa por Atraso: R$ 1,00 por dia
+Estudantes de Pós-Graduação:
+    – Limite de Empréstimo: 5 itens
+    – Prazo de Empréstimo: 20 dias
+    – Multa por Atraso: R$ 1,00 por dia
+Professores:
+    – Limite de Empréstimo: 7 itens
+    – Prazo de Empréstimo: 30 dias
+    – Multa por Atraso: R$ 0,50 por dia
+Funcionários:
+    – Limite de Empréstimo: 4 itens
+    – Prazo de Empréstimo: 20 dias
+    – Multa por Atraso: R$ 0,75 por dia
+Renovações e Reservas Inteligentes
+    – Os membros poderão solicitar a renovação de uma cópia específica de uma edição de um item antes do prazo de vencimento, desde que a cópia não esteja reservada por outro membro.
+    – Uma renovação aumentará o prazo de empréstimo, de acordo com as regras estabelecidas para cada perfil, edição e item.
+    – Reservas poderão ser feitas por membros para uma cópia específica de uma edição de um item atualmente emprestado, garantindo que eles sejam notificados assim que a cópia estiver disponível.
+    – Membros que fizerem a reserva de uma cópia terão prioridade no empréstimo quando a cópia for devolvida.
+Administração de Funcionários
+O sistema terá diferentes níveis de acesso para os funcionários da biblioteca:
+Administradores:
+    – Funcionários com perfil de administrador terão autoridade completa sobre todas as funcionalidades do sistema.
+    – Eles poderão cadastrar novos membros, gerenciar informações de itens multimídia, processar empréstimos e devoluções, gerenciar reservas, aplicar e ajustar multas, e acessar todos os relatórios e estatísticas.
+    – Os administradores serão responsáveis por manter a integridade do sistema, configurar preferências e ajustar parâmetros de empréstimos e reservas.
+Atendentes:
+    – Os funcionários com perfil de atendente terão acesso limitado ao sistema.
+    – Eles poderão realizar operações básicas de empréstimo, devolução e renovação de itens multimídia.
+    – Os atendentes estarão focados no atendimento direto aos membros, ajudando-os com suas necessidades de empréstimo e devolução.
+Gerentes:
+    – Os funcionários com perfil de gerente terão autorização intermediária.
+    – Eles poderão acessar relatórios e estatísticas avançadas sobre atividades de membros, uso de itens, atrasos e multas.
+    – Os gerentes poderão ajustar configurações específicas do sistema, como prazos de empréstimo, políticas de multas e número de cópias disponíveis.
+Relatórios Avançados e Estatísticas
+O sistema permitirá a geração de relatórios detalhados e estatísticas sobre diferentes aspectos do funcionamento da biblioteca universitária multimídia, fornecendo informações valiosas para a administração e tomada de decisões informadas. Os seguintes tipos de relatórios e estatísticas serão disponibilizados:
+Relatório de Atividades de Membros:
+    – Este relatório fornecerá um resumo das atividades de empréstimo, devolução e reserva realizadas por cada membro ao longo de um período específico.
+    – Será possível visualizar quantos itens foram emprestados, quantos foram devolvidos, bem como quaisquer multas aplicadas durante o período.
+Relatório de Uso de Itens Multimídia:
+    – Este relatório apresentará informações sobre a utilização dos diferentes tipos de itens multimídia na biblioteca.
+    – Os dados incluirão a quantidade total de empréstimos para cada tipo de item, bem como o número de vezes que cada item foi reservado.
+Relatório de Multas e Pagamentos:
+    – Este relatório detalhará as multas acumuladas pelos membros e os pagamentos efetuados para quitação das mesmas.
+    – Será possível identificar quais membros estão sujeitos a multas, o valor total devido e os pagamentos feitos para resolver as pendências.
+Relatório de Disponibilidade de Itens:
+    – Este relatório exibirá a disponibilidade atual de cada tipo de item na biblioteca.
+    – Os membros e funcionários poderão verificar rapidamente quais itens estão disponíveis para empréstimo ou reserva e quantas cópias de cada item estão atualmente disponíveis.
+Estatísticas de Uso por Perfil de Membro:
+    – Esta estatística analisará o uso da biblioteca com base nos diferentes perfis de membros (estudantes de graduação, pós-graduação, professores, funcionários). 
+    – Será possível comparar o número médio de empréstimos, as multas acumuladas e outros indicadores de uso entre os perfis.
+Relatório de Itens Mais Populares:
+    – Este relatório destacará os itens multimídia mais populares da biblioteca, com base no número total de empréstimos ou reservas.
+    – Os membros e funcionários poderão descobrir quais itens são mais procurados e, assim, direcionar aquisições futuras.
+Os relatórios poderão ser gerados sob demanda, com opções para filtrar por período de tempo, tipo de item, perfil de membro e outras variáveis relevantes. A saída dos relatórios pode ser em formato de tabela, gráfico ou arquivo exportável (como PDF ou CSV), proporcionando flexibilidade na análise e apresentação dos dados.

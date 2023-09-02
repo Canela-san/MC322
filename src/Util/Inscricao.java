@@ -1,4 +1,4 @@
-package Membro;
+package Util;
 import java.util.Date;
 
 public class Inscricao {
