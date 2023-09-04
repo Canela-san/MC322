@@ -2,10 +2,10 @@ package Multimidia;
 
 import Util.Imagem;
 
-abstract class Multimidia {
+public abstract class Multimidia {
     private String titulo;
     private String autor;
-    private String editora;     
+    private String editora;
     private int anoPublicacao;
     private String genero;
     private String sinopse;
