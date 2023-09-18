@@ -1,10 +1,16 @@
-package biblioteca.controllers;
+package biblioteca.models;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import biblioteca.controllers.ReservaControleImpl;
 
 enum StatusReserva {
     PENDENTE, CONFIRMADA, CANCELADA
 }
 
 public class ReservaSalaImpl implements ReservaSala {
+    
     public class SalaIndividualImpl implements SalaIndividual {
     }
 

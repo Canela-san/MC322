@@ -1,11 +1,16 @@
 package biblioteca.views;
 
 import java.util.List;
+import java.util.Map;
 
 import biblioteca.controllers.BibliotecaController;
 import biblioteca.models.ItemMultimidia;
-
+import biblioteca.models.Membro;
 public class BibliotecaViewImpl implements BibliotecaView {
+    List<ItemMultimidia> itens;
+    Map<String, ItemMultimidia> itensMap;
+
+
     private BibliotecaController bibliotecaController;
 
     public BibliotecaViewImpl(BibliotecaController controller) {
@@ -34,4 +39,13 @@ public class BibliotecaViewImpl implements BibliotecaView {
             System.out.println("Falha ao realizar a devolução.");
         }
     }
+
+    public BibliotecaController getBibliotecaController() {
+        return bibliotecaController;
+    }
+
+    public void setBibliotecaController(BibliotecaController bibliotecaController) {
+        this.bibliotecaController = bibliotecaController;
+    }
+    
 }

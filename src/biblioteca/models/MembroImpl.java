@@ -1,9 +1,14 @@
 package biblioteca.models;
 
 import java.nio.channels.MembershipKey;
+import java.util.ArrayList;
+import java.util.List;
+
+import biblioteca.controllers.ReservaControleImpl;
 
 public class MembroImpl implements Membro {
-
+    
+    
     @Override
     public String getNome() {
         // TODO Auto-generated method stub

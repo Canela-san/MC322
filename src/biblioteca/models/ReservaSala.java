@@ -1,4 +1,4 @@
-package biblioteca.controllers;
+package biblioteca.models;
 
 public interface ReservaSala {
     public interface SalaIndividual {

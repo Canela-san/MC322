@@ -7,6 +7,7 @@ enum FormatoMultimídia {
 }
 
 public class ItemMultimidiaImpl implements ItemMultimidia {
+    private int id;
     @Override
     public String getTitulo() {
         // TODO Auto-generated method stub
@@ -30,4 +31,14 @@ public class ItemMultimidiaImpl implements ItemMultimidia {
     public class SoftwareImpl implements Software {
 
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    
 }
